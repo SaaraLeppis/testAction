@@ -4,9 +4,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-  steps:
-    - name: Checkout
-      uses: actions/checkout@v2
+    steps:
+      - name: Checkout
+       uses: actions/checkout@v2
 
-    - name: Run a one-line script
-      run: echo "Hello, testing GitHub Actions!"
+      - name: Run a one-line script
+        run: echo "Hello, testing GitHub Actions!"
